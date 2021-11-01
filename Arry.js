@@ -2,6 +2,8 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 
 class Arry extends Component{
+    
+//     usising array
 
     constructor(props){
         super(props);
