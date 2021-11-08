@@ -4,13 +4,9 @@ import "./Card.css";
 const Services = () => {
     return (
         <div className="grand_parent">
-
-
-
             {/* first card start */}
             <div className="parents">
-
-                <div className="child-first">
+                <div className="child">
                     <div className="row">
                         <div className="col-4">
                             <span ><i className="fas fa-envelope-open-text icn"></i></span>

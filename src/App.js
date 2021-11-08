@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Flex from './Component/Flex_card/Flex';
+import Card1 from "./Component/Card_flex/Card1"
 
 function App() {
   return (
     <div className="App">
-      <Flex/>
+      <Card1/>
     </div>
   );
 }
