@@ -1,9 +1,13 @@
 import logo from './logo.svg';
+import Slider from './Components/Slider'
 import './App.css';
 import Home from "./Components/Pages/Home"
 
 function App() {
   return (
+<<<<<<< HEAD
+    <Slider></Slider>
+=======
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,6 +25,7 @@ function App() {
         <Home />
       </header>
     </div>
+>>>>>>> 1f7c2d8fba30fd8165fbd356ac3054ebb9161635
   );
 }
 
