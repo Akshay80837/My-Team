@@ -1,0 +1,49 @@
+
+
+a {
+    padding: 20px;
+  }
+  .main-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .fcontainer {
+    display: flex;
+    margin: 20px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .fitem {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 30px;
+    width: 400px;
+    height: 320px;
+    text-align: left;
+    font-family: poppins;
+    
+  }
+  .p1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .fitem:hover{
+    background-color: rgb(27, 192, 176);
+    color: aliceblue;  
+  }
+ .icn{
+   font-size: 60px;
+   
+ } 
+ .more{
+   display: none;
+ }
+ .fitem:hover .more{
+   display: block;
+   background-color: rgb(243, 242, 242);
+   color: rgb(29, 9, 141);
+ }

@@ -1,0 +1,42 @@
+
+
+a {
+    padding: 20px;
+  }
+  .main-container1{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .fcontainer1 {
+    display: flex;
+    margin: 40px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .fitem1 {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 30px;
+    width: 600px;
+    height: 320px;
+    text-align: left;
+    font-family: poppins;
+  }
+  .p1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .fitem1:hover{
+    background-color: rgb(27, 192, 176);
+    color: aliceblue;
+    
+  }
+  button:hover{
+    background-color: rgb(27, 192, 176);
+    color: aliceblue;
+  }
+  
